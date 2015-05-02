@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/martensms
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://martens.ms
+  * I am martensms (https://keybase.io/martensms) on keybase.
+  * I have a public key with fingerprint F9FC 832F FF52 520A 3A03  1493 78EF E876 1934 DA8C
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "f9fc832fff52520a3a03149378efe8761934da8c",
+            "host": "keybase.io",
+            "key_id": "78efe8761934da8c",
+            "uid": "c6964aacd94485aee90a423932202e00",
+            "username": "martensms"
+        },
+        "service": {
+            "hostname": "martens.ms",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1398158910,
+    "expire_in": 157680000,
+    "prev": "9cec0107e5ed13be5fc59c463e6845232e2d70c673579cf651ca5109cbde70aa",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.11
+Comment: https://keybase.io/crypto
+
+yMHrAnicbZFtSFRZHMZnJstmwhiTvrSmcTcWhVHv+8uIla6Yhhg0FKazTHfOPVev
+OffO3nt9Y1aElQrfIIgI/LB+ycXwJTAzAl8GFUS2rBUyEqIV1JFEkVx0NQjPlfqw
+0PlyOM/5Pc9zDv+phEM2l92/fcO51XFh0/5XdLPG5rvGnotgQU1qwLwR7CY82GRF
+rYB6WFdUE/NisiADniJlWWZIhsRFSsQpghYojocy5DmWEChaEnmAebBKzbAcKCYo
+GjBT0ZCGDgFFQup3+JqDC8AKLC2KQBJommdECAVcpElKoEgSJyGOW6ABdVUMQUSH
+RN2EqhEysEYPhuRaBSA5ctD9fyQTMR4srGumBrRqpFeaZthr2cyGsMXVwWDga0Ig
+qKgS+jYy1ELdUDQV8xKIBKZiRRKUwBMMLxC4B4P1YUWHAcUiGI7lcbSsGliLIgUA
+AU7gHGSgRFBByMiAEQDNUpDlaYakSEhKHA5YjmI4AcgsQwCRIXABBCXI4aKI+g34
+q6phXhI9U6xAkYZSoYpmjQ6xxoloeZzN7rIdOeywBmdzOd3fxjk0G7+jlbNPO/Lm
+wWrbu4JY3MioL+J/eGvrfV2/3/Fld+ZV149Jl6MZnb80rc8u5Cy92Ewb2um+kl94
+JvR7ZvEfw4vu31YfzfU12cPz6YHoQvVL5dSlnqN5Gysnxk6nZ03/3bSWuHV2l3kT
+6wQXez+6dp4U5uwVFFQ9v9qRnvLna+f1NFjkDWZPJbXE/vn3WdX5/9on6jVnf1dp
+b15fe0/rh9v36KyfVnwb63czEvYcA2+XP4+NLj8YyB00Sn+eGPWv+fLnQCHeWhJT
+Uu/YtLJsd1Gu4ihJngk1J84s/zDZvZTac7wsy80ljhd9mi4ePvm4bTz52Pb9xfbm
+kcGxyfiWjFjKPry+Fqg=
+=7GwF
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/martensms
+
+==================================================================
+
