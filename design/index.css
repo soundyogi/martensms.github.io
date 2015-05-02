@@ -495,17 +495,17 @@ footer a:focus {
 
 @media (max-height: 800px) {
 
-	header {
+	header.active {
 		padding: 8px;
 	}
 
-	header h1 {
+	header.active h1 {
 		font-size: 16px;
 	}
 
-	header h2 {
+	header.active h2 {
 		margin: 8px auto;
-		font-size: 8px;
+		font-size: 12px;
 	}
 
 	nav {

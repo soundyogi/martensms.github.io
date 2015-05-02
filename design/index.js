@@ -1,6 +1,15 @@
 
 (function(global) {
 
+	var _set_header = function(active) {
+
+		var header = document.querySelector('header');
+		if (header !== null) {
+			header.className = (active === true ? 'active' : '');
+		}
+
+	};
+
 	var _set_aside = function(active) {
 
 		var aside = document.querySelector('aside');
@@ -54,9 +63,11 @@
 
 				var reference = '#' + this.href.split('#')[1];
 				if (reference === '#home') {
+					_set_header(false);
 					_set_aside(false);
 					_set_main(false, null);
 				} else {
+					_set_header(true);
 					_set_aside(true);
 					_set_main(true, reference);
 				}
