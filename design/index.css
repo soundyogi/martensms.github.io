@@ -519,7 +519,7 @@ footer a:focus {
 	}
 
 	footer {
-		position: static;
+		display: none;
 	}
 
 	aside {
