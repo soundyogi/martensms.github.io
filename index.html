@@ -1,0 +1,441 @@
+<!doctype html>
+<html>
+<head>
+	<title>Christoph Martens Portfolio - Research &amp; Development</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="64x64 32x32 16x16">
+	<link rel="stylesheet" href="./design/index.css">
+	<script src="./design/index.js"></script>
+</head>
+<html>
+<body>
+<header>
+	<h1>Christoph Martens</h1>
+	<h2><abbr title="JavaScript">JS</abbr> Enthusiast. <abbr title="Artificial Intelligence">AI</abbr> Lover. <abbr title="Cross Compilation">CC</abbr> Researcher.</h2>
+</header>
+<nav>
+	<button id="button-email" class="ico-email">E-Mail</button>
+	<button id="button-github" class="ico-github">GitHub</button>
+</nav>
+<aside>
+	<menu>
+		<li><a href="#home" class="ico ico-home active">Home</a></li>
+		<li class="sub"><a href="#software">Software</a></li>
+		<li class="sub"><a href="#research">Research</a></li>
+		<li class="sub"><span title="coming soon...">Papers</span></li>
+		<li class="sub"><a href="#talks">Talks</a></li>
+	</menu>
+</aside>
+<main>
+	<section id="software" class="active">
+		<ul>
+			<li><a href="#software-jukebox" class="active">Zynga Jukebox</a></li>
+			<li><a href="#software-speedrun">Zynga Speedrun</a></li>
+			<li><a href="#software-adblockproxy">AdBlock Proxy</a></li>
+			<li><a href="#software-restsocket">RESTsocket</a></li>
+			<li><a href="#software-stegit">StegIt</a></li>
+		</ul>
+
+		<article id="software-jukebox" class="active">
+			<table>
+				<tr>
+					<th>Project</th>
+					<td>Zynga Jukebox</td>
+				</tr>
+				<tr>
+					<th>Release</th>
+					<td>Mid 2011</td>
+				</tr>
+				<tr>
+					<th>Status</th>
+					<td>Inactive</td>
+				</tr>
+				<tr>
+					<th>Repository</th>
+					<td><a target="_blank" href="https://github.com/martensms/jukebox">https://github.com/martensms/jukebox</a></td>
+				</tr>
+				<tr>
+					<th>Downloads</th>
+					<td><a target="_blank" href="./download/zynga-jukebox.zip">zip (multiarch)</a></td>
+				</tr>
+				<tr>
+					<th>Screenshots</th>
+					<td>
+						<a target="_blank" href="./asset/jukebox-01.png"><img width="64" height="64" src="./asset/jukebox-01-small.png"></a>
+						<a target="_blank" href="./asset/jukebox-02.png"><img width="64" height="64" src="./asset/jukebox-02-small.png"></a>
+						<a target="_blank" href="./asset/jukebox-03.png"><img width="64" height="64" src="./asset/jukebox-03-small.png"></a>
+					</td>
+				</tr>
+			</table>
+			<p>
+				Zynga Jukebox is an HTML5 Audio library that fixes many bugs
+				and issues you will have to face when you want a cross-platform
+				in-browser audio playback solution.
+			</p>
+			<p>
+				The concept behind uses a constant stream correction loop that
+				allows accurate validation of audio spritemap positions in a
+				reliable way.
+			</p>
+			<p>
+				Zynga Jukebox targets simple playback and uses HTML5 Audio
+				(not Web Audio) for playback of sounds and music. A flash fallback
+				allows to have the identical API available on unsupported systems.
+			</p>
+		</article>
+
+		<article id="software-speedrun">
+			<table>
+				<tr>
+					<th>Project</th>
+					<td>Zynga Speedrun</td>
+				</tr>
+				<tr>
+					<th>Release</th>
+					<td>Late 2011</td>
+				</tr>
+				<tr>
+					<th>Status</th>
+					<td>Inactive</td>
+				</tr>
+				<tr>
+					<th>Repository</th>
+					<td>-</td>
+				</tr>
+				<tr>
+					<th>Downloads</th>
+					<td><a target="_blank" href="./download/zynga-speedrun.zip">zip (multiarch)</a></td>
+				</tr>
+				<tr>
+					<th>Screenshots</th>
+					<td>
+						<a target="_blank" href="./asset/speedrun-01.png"><img width="64" height="64" src="./asset/speedrun-01-small.png"></a>
+						<a target="_blank" href="./asset/speedrun-02.png"><img width="64" height="64" src="./asset/speedrun-02-small.png"></a>
+						<a target="_blank" href="./asset/speedrun-03.png"><img width="64" height="64" src="./asset/speedrun-03-small.png"></a>
+					</td>
+				</tr>
+			</table>
+			<p>
+				Zynga Speedrun is a Rendering Benchmark created as a project
+				for the partnership between Zynga and the Browser Vendors.
+			</p>
+			<p>
+				As Rendering Performance of HTML5 Canvas (and WebGL) on mobiles
+				was slow, there was a need for an alternative using the DOM
+				as a Renderer API.
+			</p>
+			<p>
+				Zynga Speedrun aimed to determine the performance across multiple
+				devices, which specific rendering method was the fastest among
+				them. It also featured a statistical backend that was updating
+				generated profiles for each device and browser, so that Zynga was
+				able to deliver each browser in its best-case scenario per default.
+			</p>
+		</article>
+
+		<article id="software-adblockproxy">
+			<table>
+				<tr>
+					<th>Project</th>
+					<td>AdBlock Proxy</td>
+				</tr>
+				<tr>
+					<th>Release</th>
+					<td>Mid 2014</td>
+				</tr>
+				<tr>
+					<th>Status</th>
+					<td>Active</td>
+				</tr>
+				<tr>
+					<th>Repository</th>
+					<td><a target="_blank" href="https://github.com/LazerUnicorns/adblock-proxy">https://github.com/LazerUnicorns/adblock-proxy</a></td>
+				</tr>
+				<tr>
+					<th>Downloads</th>
+					<td><a target="_blank" href="./download/adblock-proxy.zip">zip (multiarch)</a></td>
+				</tr>
+				<tr>
+					<th>Screenshots</th>
+					<td>-</td>
+				</tr>
+			</table>
+			<p>
+				AdBlock Proxy blocks advertisements with support for AdBlock Plus
+				filter lists and <q>/etc/hosts</q> files. The project aims to
+				make the web even more awesome.
+			</p>
+			<p>
+				It offers a simple HTTP / HTTPS / SOCKS Proxy that can be used
+				as a proxy for each web browser on each operating system.
+				As the code is written in NodeJS, you can run the
+				proxy on any device, on any system.
+				It is also usable as a gateway to Hyperboria (CJDNS).
+			</p>
+		</article>
+
+		<article id="software-restsocket">
+			<table>
+				<tr>
+					<th>Project</th>
+					<td>RESTsocket</td>
+				</tr>
+				<tr>
+					<th>Release</th>
+					<td>Late 2014</td>
+				</tr>
+				<tr>
+					<th>Status</th>
+					<td>Active</td>
+				</tr>
+				<tr>
+					<th>Repository</th>
+					<td><a target="_blank" href="https://github.com/LazerUnicorns/rest-socket">https://github.com/LazerUnicorns/rest-socket</a></td>
+				</tr>
+				<tr>
+					<th>Downloads</th>
+					<td>-</td>
+				</tr>
+				<tr>
+					<th>Screenshots</th>
+					<td>-</td>
+				</tr>
+			</table>
+			<p>
+				RESTsocket is a JavaScript library that offers a centralized
+				event-oriented service-driven API for having either an
+				HTTP-Socket or Web-Socket service.
+			</p>
+			<p>
+				The (optional) binary encoding layer BitON allows better
+				compression to JSON. It is around 50% smaller and faster in
+				all cases, up to 200% the speed of JSON.stringify and JSON.parse.
+				String serialization is around 100x the speed of JSON.
+			</p>
+		</article>
+
+		<article id="software-stegit">
+			<table>
+				<tr>
+					<th>Project</th>
+					<td>StegIt</td>
+				</tr>
+				<tr>
+					<th>Release</th>
+					<td>Mid 2008</td>
+				</tr>
+				<tr>
+					<th>Status</th>
+					<td>Inactive</td>
+				</tr>
+				<tr>
+					<th>Repository</th>
+					<td>-</td>
+				</tr>
+				<tr>
+					<th>Downloads</th>
+					<td><a target="_blank" href="./download/stegit.zip">zip (i686)</a></td>
+				</tr>
+				<tr>
+					<th>Screenshots</th>
+					<td>
+						<a target="_blank" href="./asset/stegit-01.png"><img width="64" height="64" src="./asset/stegit-01-small.png"></a>
+						<a target="_blank" href="./asset/stegit-02-original.jpg"><img width="64" height="64" src="./asset/stegit-02-small.png"></a>
+						<a target="_blank" href="./asset/stegit-03-encrypted.jpg"><img width="64" height="64" src="./asset/stegit-02-small.png"></a>
+					</td>
+				</tr>
+			</table>
+			<p>
+				StegIt is a program that eases up steganographic and cryptographic
+				ways of hiding data inside pictures.
+			</p>
+			<p>
+				The tool is designed to encrypt data inside pictures using ARC4.
+				StegIt mostly searches for rectangles of the (nearly) same color
+				inside a picture, offsets the similar colors closer to each other
+				and uses the last bits of each color information for hiding another
+				file in it. Simple stream encryption is realized using ARC4, but
+				can be replaced with others generically.
+			</p>
+			<p>
+				The Screenshots include sample data. Feel free to bruteforce the key.
+			</p>
+		</article>
+	
+	</section>
+	<section id="research">
+
+		<ul>
+			<li><a href="#research-lycheejs" class="active">lycheeJS</a></li>
+			<li><a href="#research-poisonjs">poisonJS</a></li>
+			<li><a href="#research-skye">Skye Drone</a></li>
+		</ul>
+
+		<article id="research-lycheejs" class="active">
+			(TODO) lycheeJS content
+		</article>
+
+		<article id="research-poisonjs">
+			(TODO) poisonJS content
+		</article>
+
+		<article id="research-skye">
+			<table>
+				<tr>
+					<th>Project</th>
+					<td>Skye Drone</td>
+				</tr>
+				<tr>
+					<th>Release</th>
+					<td>Late 2012</td>
+				</tr>
+				<tr>
+					<th>Status</th>
+					<td>Inactive</td>
+				</tr>
+				<tr>
+					<th>Repository</th>
+					<td>-</td>
+				</tr>
+				<tr>
+					<th>Downloads</th>
+					<td>-</td>
+				</tr>
+				<tr>
+					<th>Pictures</th>
+					<td>
+						<a target="_blank" href="./asset/skye-01.png"><img width="64" height="64" src="./asset/skye-01-small.png"></a>
+						<a target="_blank" href="./asset/skye-02.png"><img width="64" height="64" src="./asset/skye-02-small.png"></a>
+					</td>
+				</tr>
+			</table>
+			<p>
+				Skye Drone is an interactive drone project written in <a href="http://lycheejs.org">lycheeJS</a>.
+				Its goal is to design a drone capable of interactions with humans
+				via AI mechanisms to intelligently navigate through buildings or
+				other places with obstacles.
+			</p>
+			<p>
+				The underlying AI is divided in two different cortexes, the active
+				and passive cortex. The active cortex is the high-level control
+				mechanism that is instructed by the human, the passive cortex is
+				the low-level interaction with its own sensors and electronics.
+			</p>
+			<p>
+				For example, the flight controller is part of the passive cortex
+				to avoid problems if the higher AI level gets stuck into problems
+				with processing instructions. It is also the required security
+				layer to avoid self-destructing procedurally generated heuristics.
+			</p>
+		</article>
+
+	</section>
+	<section id="talks">
+		<ul>
+			<li><a href="#talks-jsconf-2014" class="active">JSConf 2014</a></li>
+			<li><a href="#talks-karlsruhejs-2014">KarlsruheJS 02/14</a></li>
+			<li><a href="#talks-ongamestart-2012">onGameStart 2012</a></li>
+			<li><a href="#talks-mmt-31">MMT 31</a></li>
+		</ul>
+
+		<article id="talks-jsconf-2014" class="active">
+			<table>
+				<tr>
+					<th>Conference</th>
+					<td>JSConf 2014</td>
+				</tr>
+				<tr>
+					<th>Talk</th>
+					<td>JavaScript Level 9000</td>
+				</tr>
+				<tr>
+					<th>Video</th>
+					<td><a target="_blank" href="https://www.youtube.com/watch?v=v34CEyqVEuM">https://www.youtube.com/watch?v=v34CEyqVEuM</a></td>
+				</tr>
+				<tr>
+					<th>Slides</th>
+					<td>-</td>
+				</tr>
+			</table>
+			<iframe width="512" height="384" src="http://www.youtube.com/embed/v34CEyqVEuM?html5=1" frameborder="0" webkitAllowFullscreen mozallowfullscreen allowfullscreen></iframe>
+		</article>
+
+		<article id="talks-karlsruhejs-2014">
+			<table>
+				<tr>
+					<th>Conference</th>
+					<td>KarlsruheJS 02/14</td>
+				</tr>
+				<tr>
+					<th>Talk</th>
+					<td>Writing High Performance JavaScript</td>
+				</tr>
+				<tr>
+					<th>Video</th>
+					<td><a target="_blank" href="https://www.youtube.com/watch?v=cwpidk1Vqkk">https://www.youtube.com/watch?v=cwpidk1Vqkk</a></td>
+				</tr>
+				<tr>
+					<th>Slides</th>
+					<td>-</td>
+				</tr>
+			</table>
+			<iframe width="512" height="384" src="http://www.youtube.com/embed/cwpidk1Vqkk?html5=1" frameborder="0" webkitAllowFullscreen mozallowfullscreen allowfullscreen></iframe>
+		</article>
+
+		<article id="talks-ongamestart-2012">
+			<table>
+				<tr>
+					<th>Conference</th>
+					<td>onGameStart 2012</td>
+				</tr>
+				<tr>
+					<th>Talk</th>
+					<td>Cross-Platform and Cross-Browser Games with JavaScript, HTML5, WebGL and native OpenGL</td>
+				</tr>
+				<tr>
+					<th>Video</th>
+					<td><a target="_blank" href="https://vimeo.com/53731979">https://vimeo.com/53731979</a></td>
+				</tr>
+				<tr>
+					<th>Slides</th>
+					<td><a target="_blank" href="./download/slides-ongamestart-2012.zip">zip (HTML)</a></td>
+				</tr>
+			</table>
+			<iframe width="512" height="384" src="http://player.vimeo.com/video/53731979" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		</article>
+
+		<article id="talks-mmt-31">
+			<table>
+				<tr>
+					<th>Conference</th>
+					<td>MMT 31</td>
+				</tr>
+				<tr>
+					<th>Talk</th>
+					<td>Cross-Platform Games mit JavaScript und HTML5, WebGL und OpenGL</td>
+				</tr>
+				<tr>
+					<th>Video</th>
+					<td><a target="_blank" href="https://www.youtube.com/watch?v=oBFgtfij8kY">https://www.youtube.com/watch?v=oBFgtfij8kY</a></td>
+				</tr>
+				<tr>
+					<th>Slides</th>
+					<td><a target="_blank" href="./download/slides-mmt-31.zip">zip (HTML)</a></td>
+				</tr>
+			</table>
+			<iframe width="512" height="384" src="http://www.youtube.com/embed/oBFgtfij8kY?html5=1" frameborder="0" webkitAllowFullscreen mozallowfullscreen allowfullscreen></iframe>
+		</article>
+
+	</section>
+</main>
+<footer>
+	Made with awesome skills in Heidelberg, Germany.<br>
+	Shameless Advertisement: <a href="http://lycheejs.org" target="_blank">lycheeJS</a>
+</footer>
+<script src="./design/index.js"></script>
+</body>
+</html>
+
