@@ -436,8 +436,22 @@
 	Shameless Advertisement: <a href="http://lycheejs.org" target="_blank">lycheeJS</a>
 </footer>
 <script>
-[].slice.call(document.querySelectorAll('iframe')).forEach(function(iframe) {
-	iframe.parentNode.removeChild(iframe);
+/*
+ * This prevents youtube- or vimeo-specific crashes on slower machines. LOL
+ */
+
+[].slice.call(document.querySelectorAll('iframe')).forEach(function(iframe, index) {
+
+	var parent = iframe.parentNode;
+	if (parent !== null) {
+		parent.removeChild(iframe);
+	}
+
+
+	setTimeout(function() {
+		parent.appendChild(iframe);
+	}, index * 3000);
+
 });
 </script>
 <script src="./design/index.js"></script>
