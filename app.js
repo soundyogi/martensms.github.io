@@ -1,4 +1,10 @@
 
+var port = parseInt(process.argv[2], 10);
+if (isNaN(port)) {
+	port = 3000;
+}
+
+
 var final_handler = require('finalhandler');
 var http          = require('http');
 var serve_static  = require('serve-static');
@@ -15,5 +21,7 @@ var server = http.createServer(function(req, res) {
 });
 
 
-server.listen(80);
+server.listen(port);
+
+console.log('Listening on port ' + port);
 
