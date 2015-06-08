@@ -171,6 +171,11 @@ aside {
 	transition: all 200ms ease-out;
 }
 
+aside.active {
+	width: 33%;
+	right: auto;
+}
+
 menu {
 	display: block;
 	position: absolute;
@@ -193,16 +198,11 @@ menu {
 }
 
 aside.active > menu {
-	width: 128px;
-	height: 128px;
+	width: 192px;
+	height: auto;
 	top: 50%;
-	left: 15%;
-	-moz-transform: translate(-50%, -50%) rotateY(45deg) rotateY(45deg);
-	-ms-transform: translate(-50%, -50%) rotateY(45deg) rotateY(45deg);
-	-webkit-transform: translate(-50%, -50%) rotateY(45deg) rotateY(45deg);
-	transform: translate(-50%, -50%) rotateY(45deg) rotateY(45deg);
+	left: 50%;
 }
-
 
 menu li {
 	display: block;
@@ -243,17 +243,40 @@ menu li span {
 	transition: all 200ms ease-out;
 }
 
+
 aside.active > menu li a,
 aside.active > menu li span {
-	width: 64px;
+	width: auto;
 	height: 64px;
 	line-height: 64px;
-	font-size: 9px;
+	font-size: 16px;
+	border-radius: 0px;
+}
+
+aside.active > menu li {
+	display: block;
+	position: static;
+	width: auto;
+	height: 32px;
+	margin: 16px 0px;
+	line-height: 32px;
+	transform: translate(0%, 0%);
+}
+
+aside.active > menu li a,
+aside.active > menu li span {
+	display: block;
+	position: static;
+	width: auto;
+	height: 32px;
+	line-height: 32px;
+	transform: translate(0%, 0%);
 }
 
 nav button:before,
 menu li a:before,
-menu li span:before {
+menu li span:before,
+dialog p#modal-code span:before {
 	margin: 0px 0.4em 0px 0px;
 	font-family: 'icomoon';
 	font-weight: normal;
@@ -262,6 +285,10 @@ menu li span:before {
 	speak: none;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+dialog p#modal-code span:before {
+	margin: 0px 0.4em;
 }
 
 menu li a:hover {
@@ -292,15 +319,22 @@ menu li:nth-child(3) { -moz-transform: translate(200%,   0%); -ms-transform: tra
 menu li:nth-child(4) { -moz-transform: translate(  0%, 200%); -ms-transform: translate(  0%, 200%); -webkit-transform: translate(  0%, 200%); transform: translate(  0%, 200%); }
 menu li:nth-child(5) { -moz-transform: translate(200%, 200%); -ms-transform: translate(200%, 200%); -webkit-transform: translate(200%, 200%); transform: translate(200%, 200%); }
 
-nav button.ico-email:before      { content: "\e002"; }
-nav button.ico-github:before     { content: "\e078"; }
+nav button.ico-email:before      { content: "\e086"; }
+nav button.ico-github:before     { content: "\e026"; }
+nav button.ico-secret:before     { content: "\e00e"; }
 
-menu li:nth-child(1) a:before    { content: "\e102"; }
-menu li:nth-child(2) a:before    { content: "\e031"; }
-menu li:nth-child(3) a:before    { content: "\e024"; }
-menu li:nth-child(4) span:before { content: "\e034"; }
-menu li:nth-child(5) a:before    { content: "\e048"; }
- 
+menu li:nth-child(1) a:before    { content: "\e06a"; }
+menu li:nth-child(2) a:before    { content: "\e034"; }
+menu li:nth-child(3) a:before    { content: "\e08a"; }
+menu li:nth-child(4) span:before { content: "\e04c"; }
+menu li:nth-child(5) a:before    { content: "\e063"; }
+
+
+dialog p#modal-code span.code-u:before { content: "\e078"; }
+dialog p#modal-code span.code-r:before { content: "\e079"; }
+dialog p#modal-code span.code-l:before { content: "\e07a"; }
+dialog p#modal-code span.code-d:before { content: "\e07b"; }
+
 
 
 main {
@@ -433,6 +467,52 @@ main section article.active {
 }
 
 
+dialog {
+	display: block;
+	position: fixed;
+	top: 0%;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	padding: 32px;
+	color: #ffffff;
+	font-family: 'museo-sans-300';
+	font-size: 16px;
+	font-weight: normal;
+	border: 2px solid #888888;
+	border-radius: 32px;
+	background: #000000;
+	-moz-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	-webkit-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	-moz-transform: translate(0%, -4096px);
+	-ms-transform: translate(0%, -4096px);
+	-webkit-transform: translate(0%, -4096px);
+	transform: translate(0%, -4096px);
+}
+
+dialog.active {
+	border-color: #32afe5;
+	-moz-animation: pulse 3000ms infinite;
+	-ms-animation: pulse 3000ms infinite;
+	-webkit-animation: pulse 3000ms infinite;
+	animation: pulse 3000ms infinite;
+	-moz-transform: translate(0%, 0%);
+	-ms-transform: translate(0%, 0%);
+	-webkit-transform: translate(0%, 0%);
+	transform: translate(0%, 0%);
+}
+
+dialog h3 {
+	font-size: 24px;
+}
+
+dialog p {
+	text-align: center;
+}
+
+
 article h3 {
 	display: block;
 	margin: 0px;
@@ -534,6 +614,18 @@ footer a:focus {
 
 }
 
+@media (max-width: 1280px) {
+
+	aside.active > menu {
+		width: 128px;
+		left: 64px;
+	}
+
+	main {
+		left: 136px;
+	}
+
+}
 
 @media (max-width: 1024px) {
 
@@ -541,18 +633,6 @@ footer a:focus {
 		font-size: 12px;
 		height: auto;
 		padding: 0px 8px;
-	}
-
-}
-
-@media (max-width: 1280px) {
-
-	aside.active > menu {
-		left: 64px;
-	}
-
-	main {
-		left: 136px;
 	}
 
 }
