@@ -36,7 +36,9 @@
 			<li><a href="#software-jukebox" class="active">Zynga Jukebox</a></li>
 			<li><a href="#software-speedrun">Zynga Speedrun</a></li>
 			<li><a href="#software-adblockproxy">AdBlock Proxy</a></li>
+			<li><a href="#software-geoipjs">GeoIPJS</a></li>
 			<li><a href="#software-restsocket">RESTsocket</a></li>
+			<li><a href="#software-sorbetstatic">Sorbet Static</a></li>
 			<li><a href="#software-stegit">StegIt</a></li>
 		</ul>
 
@@ -178,6 +180,51 @@
 			</p>
 		</article>
 
+		<article id="software-geoipjs">
+			<table>
+				<tr>
+					<th>Project</th>
+					<td>GeoIPJS</td>
+				</tr>
+				<tr>
+					<th>Release</th>
+					<td>Mid 2015</td>
+				</tr>
+				<tr>
+					<th>Status</th>
+					<td>Active</td>
+				</tr>
+				<tr>
+					<th>Repository</th>
+					<td><a target="_blank" href="https://github.com/LazerUnicorns/GeoIPJS">https://github.com/LazerUnicorns/GeoIPJS</a></td>
+				</tr>
+				<tr>
+					<th>Downloads</th>
+					<td>-</td>
+				</tr>
+				<tr>
+					<th>Screenshots</th>
+					<td>-</td>
+				</tr>
+			</table>
+			<p>
+				GeoIPJS eases up working with GeoIP data and doesn't require any
+				kind of internet connection to work. It uses an offline cache
+				based on the GeoLite2 data offered by MaxMind, Inc.
+			</p>
+			<p>
+				It offers a simple API to check IPs and retrieves information
+				from the generated JSON cache. This information includes continent,
+				country, geolocation, language and network details such as the
+				network address range and mask of the registered NAT.
+			</p>
+			<p>
+				The mask is a binary string that offers a simple way to check IPs
+				against it. If no address range could be found, the fallback
+				location that is returned is the <q>Bermuda Triangle</q>.
+			</p>
+		</article>
+
 		<article id="software-restsocket">
 			<table>
 				<tr>
@@ -215,6 +262,53 @@
 				compression to JSON. It is around 50% smaller and faster in
 				all cases, up to 200% the speed of JSON.stringify and JSON.parse.
 				String serialization is around 100x the speed of JSON.
+			</p>
+		</article>
+
+		<article id="software-sorbetstatic">
+			<table>
+				<tr>
+					<th>Project</th>
+					<td>Sorbet (Static)</td>
+				</tr>
+				<tr>
+					<th>Release</th>
+					<td>Mid 2015</td>
+				</tr>
+				<tr>
+					<th>Status</th>
+					<td>Active</td>
+				</tr>
+				<tr>
+					<th>Repository</th>
+					<td><a target="_blank" href="https://github.com/LazerUnicorns/sorbet-static">https://github.com/LazerUnicorns/sorbet-static</a></td>
+				</tr>
+				<tr>
+					<th>Downloads</th>
+					<td><a target="_blank" href="https://github.com/LazerUnicorns/sorbet-static/releases">https://github.com/LazerUnicorns/sorbet-static/releases</a></td>
+				</tr>
+				<tr>
+					<th>Screenshots</th>
+					<td>
+						<a target="_blank" href="./asset/sorbetstatic-01.png"><img width="64" height="64" src="./asset/sorbetstatic-01-small.png"></a>
+						<a target="_blank" href="./asset/sorbetstatic-02.png"><img width="64" height="64" src="./asset/sorbetstatic-02-small.png"></a>
+					</td>
+				</tr>
+			</table>
+			<p>
+				Sorbet (Static) is a fork of the lycheeJS webserver Sorbet.
+				Its purpose is to have a full-blown HTTP/1.1 compliant webserver
+				that can easily be installed on any operating system.
+			</p>
+			<p>
+				It's a headless webserver with no additional requirements
+				(bundled with iojs), HTTP/1.1 compliant, supports multiplexing
+				of multiple HTTP pipes, multiple virtual hosts, multiple instances
+				and multiple profiles.
+			</p>
+			<p>
+				It has also a socket- and event-driven architecture and can be used
+				as a portable webserver on USB sticks.
 			</p>
 		</article>
 
