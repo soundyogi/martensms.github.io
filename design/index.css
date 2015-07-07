@@ -91,7 +91,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	color: #ffffff;
-	background: #000000;
+	background: #252530;
 	overflow: hidden;
 }
 
@@ -139,7 +139,7 @@ nav button {
 	width: 128px;
 	margin: 4px 0px;
 	padding: 4px 8px;
-	color: #888888;
+	color: #b1b1b1;
 	font-family: 'museo-sans-300';
 	font-size: 16px;
 	font-weight: normal;
@@ -147,7 +147,7 @@ nav button {
 	text-transform: uppercase;
 	vertical-align: top;
 	background: transparent;
-	border: 2px solid #888888;
+	border: 2px solid #b1b1b1;
 	outline: none;
 	cursor: pointer;
 }
@@ -221,7 +221,7 @@ menu li span {
 	width: 128px;
 	height: 128px;
 	line-height: 128px;
-	color: #888888;
+	color: #b1b1b1;
 	list-style: none;
 	font-family: 'museo-sans-300';
 	font-size: 18px;
@@ -233,7 +233,7 @@ menu li span {
 	-ms-transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	border: 2px solid #888888;
+	border: 2px solid #b1b1b1;
 	border-radius: 128px;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -308,8 +308,8 @@ menu li a.active {
 
 menu li span,
 menu li span:hover {
-	color: #222222;
-	border-color: #222222;
+	color: #414141;
+	border-color: #414141;
 	cursor: not-allowed;
 }
 
@@ -344,7 +344,7 @@ main {
 	right: 0px;
 	bottom: 128px;
 	left: 33%;
-	border: 2px solid #888888;
+	border: 2px solid #b1b1b1;
 	border-right: none;
 	border-radius: 32px 0px 0px 32px;
 	-moz-transition: all 200ms ease-out;
@@ -403,7 +403,7 @@ main section ul li a {
 	line-height: 48px;
 	margin: 0px;
 	padding: 0px 24px;
-	color: #888888;
+	color: #b1b1b1;
 	font-family: 'museo-sans-300';
 	font-size: 16px;
 	font-weight: normal;
@@ -445,7 +445,7 @@ main section article {
 	font-size: 16px;
 	font-weight: normal;
 	border: 0px solid transparent;
-	border-top: 2px solid #888888;
+	border-top: 2px solid #b1b1b1;
 	border-radius: 0px 0px 0px 32px;
 	-moz-transform: translate(100%, 0%);
 	-ms-transform: translate(100%, 0%);
@@ -479,7 +479,7 @@ dialog {
 	font-family: 'museo-sans-300';
 	font-size: 16px;
 	font-weight: normal;
-	border: 2px solid #888888;
+	border: 2px solid #b1b1b1;
 	border-radius: 32px;
 	background: #000000;
 	-moz-transition: all 300ms ease-out;
@@ -526,7 +526,7 @@ article table {
 	margin: 0px 0px 32px 0px;
 	padding: 0px;
 	width: 512px;
-	border: 1px solid #888888;
+	border: 1px solid #b1b1b1;
 }
 
 article table th {
