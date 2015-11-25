@@ -204,7 +204,7 @@
 					if (_fancy_code.length === 8) {
 
 						setTimeout(function() {
-							location.href = './secret.html';
+							location.href = 'http://www.nyan.cat/';
 						}, 1000);
 
 						code.innerHTML = 'Access granted';
